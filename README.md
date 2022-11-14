@@ -4,7 +4,8 @@ Anonymizing DER using IEEE 2030.5 flow reservation requests
 ## Setup
 
 ```
-pip install --upgrade virtualenv
+pip install --upgrade pip
+pip install virtualenv
 virtualenv -p python3 .env
 source .env/bin/activate
 pip install -r req*.txt

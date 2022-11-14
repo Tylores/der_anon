@@ -16,7 +16,7 @@ def loadData(filepath: str) -> pd.DataFrame:
         print('data is missing values')
         exit()
     return data
-
+ 
 def simulateDevice(data: pd.DataFrame, type: str) -> pd.DataFrame:
     size = 10
     power = [0]*size
@@ -69,7 +69,7 @@ def simulateDevice(data: pd.DataFrame, type: str) -> pd.DataFrame:
 
 def simulateVariance(data: pd.DataFrame) -> pd.DataFrame:
     data = simulateDevice(data, 'air conditioner')
-    data = simulateDevice(data, 'cloth washer')
+    data = simulateDevice(data, 'clothes washer')
     data = simulateDevice(data, 'clothes dryer')
     data = simulateDevice(data, 'dishwasher')
     data = simulateDevice(data, 'refrigerator')
