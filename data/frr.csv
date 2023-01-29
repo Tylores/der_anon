@@ -1,15 +1,15 @@
 model,type,mode,power,duration,energy,interval
-665-13242K900,dishwasher,normal,1172,60,1172,8
-Bryant697CN030-B,air conditioner,normal,2057,9,309,1
-E52-50R-045DV,water heater,normal,4531,8,604,1
-HTR16ABSRWW,refrigerator,defrost,370,23,142,1
-LGDLE2516W,clothes dryer,auto-regular,5511,32,2939,8
-LGDLE2516W,clothes dryer,delicates,3006,15,752,8
-LGLW1212ER,air conditioner,normal,1107,15,277,1
-LGWM2016CW,clothes washer,delicates,205,42,144,8
-LGWM2016CW,clothes washer,normal,278,60,278,8
-MSD2641KEW,refrigerator,defrost,523,14,122,1
-WSM2420D0WW,clothes dryer,auto-perm,3028,58,2927,8
-WSM2420D0WW,clothes dryer,auto-regular,2951,54,2656,8
-WSM2420D3WW,clothes washer,delicates,553,25,230,8
-WSM2420D3WW,clothes washer,normal,647,35,377,8
+665-13242K900,DW,normal,1172,60,1172,8
+Bryant697CN030-B,AC,normal,2057,9,309,1
+E52-50R-045DV,WH,normal,4531,8,604,1
+HTR16ABSRWW,Rfg,defrost,370,23,142,1
+LGDLE2516W,CD,auto-regular,5511,32,2939,8
+LGDLE2516W,CD,delicates,3006,15,752,8
+LGLW1212ER,AC,normal,1107,15,277,1
+LGWM2016CW,CW,delicates,205,42,144,8
+LGWM2016CW,CW,normal,278,60,278,8
+MSD2641KEW,Rfg,defrost,523,14,122,1
+WSM2420D0WW,CD,auto-perm,3028,58,2927,8
+WSM2420D0WW,CD,auto-regular,2951,54,2656,8
+WSM2420D3WW,CW,delicates,553,25,230,8
+WSM2420D3WW,CW,normal,647,35,377,8

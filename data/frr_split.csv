@@ -1,42 +1,42 @@
 model,type,mode,phase,power,duration,energy,interval
-Bryant697CN030-B,air conditioner,normal,1,2057,272,9,1
-LGLW1212ER,air conditioner,normal,1,1107,187,15,1
-LGWM2016CW,clothes washer,normal,1,143,61,17,1
-LGWM2016CW,clothes washer,normal,2,214,72,18,1
-LGWM2016CW,clothes washer,normal,3,205,92,14,1
-LGWM2016CW,clothes washer,normal,4,217,119,8,1
-LGWM2016CW,clothes washer,normal,5,278,45,19,1
-WSM2420D3WW,clothes washer,normal,1,550,133,19,4
-WSM2420D3WW,clothes washer,normal,2,647,157,21,4
-LGDLE2516W,clothes dryer,auto-regular,1,5511,544,15,1
-LGDLE2516W,clothes dryer,auto-regular,2,4692,314,7,1
-LGDLE2516W,clothes dryer,auto-regular,3,2623,106,5,1
-LGDLE2516W,clothes dryer,auto-regular,4,3035,160,7,1
-LGDLE2516W,clothes dryer,auto-regular,5,2631,64,8,1
-WSM2420D0WW,clothes dryer,auto-regular,1,3028,907,19,1
-WSM2420D0WW,clothes dryer,auto-regular,2,2958,102,5,1
-WSM2420D0WW,clothes dryer,auto-regular,3,2967,154,5,1
-WSM2420D0WW,clothes dryer,auto-regular,4,2731,54,4,1
-WSM2420D0WW,clothes dryer,auto-regular,5,2889,146,6,1
-WSM2420D0WW,clothes dryer,auto-regular,6,2564,80,7,1
-WSM2420D0WW,clothes dryer,auto-regular,7,2898,142,18,1
-WSM2420D0WW,clothes dryer,auto-regular,8,193,34,11,1
-665-13242K900,dishwasher,normal,1,262,33,12,2
-665-13242K900,dishwasher,normal,2,1172,172,11,2
-665-13242K900,dishwasher,normal,3,253,103,30,2
-665-13242K900,dishwasher,normal,4,1144,130,7,2
-HTR16ABSRWW,refrigerator,defrost,1,370,133,23,1
-MSD2641KEW,refrigerator,defrost,1,523,111,14,1
-E52-50R-045DV,water heater,normal,1,4531,506,8,1
-LGWM2016CW,clothes washer,delicates,1,143,17,41,2
-LGWM2016CW,clothes washer,delicates,2,108,18,32,2
-LGWM2016CW,clothes washer,delicates,3,205,7,24,2
-WSM2420D0WW,clothes dryer,auto-perm,1,3028,17,858,1
-WSM2420D0WW,clothes dryer,auto-perm,2,2958,5,247,1
-WSM2420D0WW,clothes dryer,auto-perm,3,2967,5,247,1
-WSM2420D0WW,clothes dryer,auto-perm,4,2731,4,182,1
-WSM2420D0WW,clothes dryer,auto-perm,5,2619,6,262,1
-WSM2420D0WW,clothes dryer,auto-perm,6,2564,4,171,1
-WSM2420D0WW,clothes dryer,auto-perm,7,192,17,54,1
-WSM2420D3WW,clothes washer,delicates,1,519,14,121,4
-WSM2420D3WW,clothes washer,delicates,2,553,11,101,4
+Bryant697CN030-B,AC,normal,1,2057,272,9,1
+LGLW1212ER,AC,normal,1,1107,187,15,1
+LGWM2016CW,CW,normal,1,143,61,17,1
+LGWM2016CW,CW,normal,2,214,72,18,1
+LGWM2016CW,CW,normal,3,205,92,14,1
+LGWM2016CW,CW,normal,4,217,119,8,1
+LGWM2016CW,CW,normal,5,278,45,19,1
+WSM2420D3WW,CW,normal,1,550,133,19,4
+WSM2420D3WW,CW,normal,2,647,157,21,4
+LGDLE2516W,CD,auto-regular,1,5511,544,15,1
+LGDLE2516W,CD,auto-regular,2,4692,314,7,1
+LGDLE2516W,CD,auto-regular,3,2623,106,5,1
+LGDLE2516W,CD,auto-regular,4,3035,160,7,1
+LGDLE2516W,CD,auto-regular,5,2631,64,8,1
+WSM2420D0WW,CD,auto-regular,1,3028,907,19,1
+WSM2420D0WW,CD,auto-regular,2,2958,102,5,1
+WSM2420D0WW,CD,auto-regular,3,2967,154,5,1
+WSM2420D0WW,CD,auto-regular,4,2731,54,4,1
+WSM2420D0WW,CD,auto-regular,5,2889,146,6,1
+WSM2420D0WW,CD,auto-regular,6,2564,80,7,1
+WSM2420D0WW,CD,auto-regular,7,2898,142,18,1
+WSM2420D0WW,CD,auto-regular,8,193,34,11,1
+665-13242K900,DW,normal,1,262,33,12,2
+665-13242K900,DW,normal,2,1172,172,11,2
+665-13242K900,DW,normal,3,253,103,30,2
+665-13242K900,DW,normal,4,1144,130,7,2
+HTR16ABSRWW,Rfg,defrost,1,370,133,23,1
+MSD2641KEW,Rfg,defrost,1,523,111,14,1
+E52-50R-045DV,WH,normal,1,4531,506,8,1
+LGWM2016CW,CW,delicates,1,143,17,41,2
+LGWM2016CW,CW,delicates,2,108,18,32,2
+LGWM2016CW,CW,delicates,3,205,7,24,2
+WSM2420D0WW,CD,auto-perm,1,3028,17,858,1
+WSM2420D0WW,CD,auto-perm,2,2958,5,247,1
+WSM2420D0WW,CD,auto-perm,3,2967,5,247,1
+WSM2420D0WW,CD,auto-perm,4,2731,4,182,1
+WSM2420D0WW,CD,auto-perm,5,2619,6,262,1
+WSM2420D0WW,CD,auto-perm,6,2564,4,171,1
+WSM2420D0WW,CD,auto-perm,7,192,17,54,1
+WSM2420D3WW,CW,delicates,1,519,14,121,4
+WSM2420D3WW,CW,delicates,2,553,11,101,4

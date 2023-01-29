@@ -68,12 +68,12 @@ def simulateDevice(data: pd.DataFrame, type: str) -> pd.DataFrame:
     return pd.concat([data,new_df],ignore_index=True)
 
 def simulateVariance(data: pd.DataFrame) -> pd.DataFrame:
-    data = simulateDevice(data, 'air conditioner')
-    data = simulateDevice(data, 'clothes washer')
-    data = simulateDevice(data, 'clothes dryer')
-    data = simulateDevice(data, 'dishwasher')
-    data = simulateDevice(data, 'refrigerator')
-    data = simulateDevice(data, 'water heater')
+    data = simulateDevice(data, 'AC')
+    data = simulateDevice(data, 'CW')
+    data = simulateDevice(data, 'CD')
+    data = simulateDevice(data, 'DW')
+    data = simulateDevice(data, 'Rfg')
+    data = simulateDevice(data, 'WH')
     return data
 
 def runSVM(data: pd.DataFrame, name: str):
@@ -109,7 +109,9 @@ def runSVM(data: pd.DataFrame, name: str):
     # Put the result into a color plot
     Z = Z.reshape(xx.shape)
     CS = plt.contourf(xx, yy, Z, cmap=plt.cm.PuBuGn, alpha=0.7)
+    plt.rcParams.update({'font.size': 16})
     plt.savefig('outputs/'+name+'_linear_svm.svg', bbox_inches='tight')
+    plt.savefig('outputs/'+name+'_linear_svm.png', bbox_inches='tight')
 
     
     # retrieve the accuracy
@@ -129,10 +131,37 @@ def runSVM(data: pd.DataFrame, name: str):
         cmap=plt.cm.PuBuGn,
         xticks_rotation=45
     )
+    plt.rcParams.update({'font.size': 16})
     plt.savefig('outputs/'+name+'_confusion.svg', bbox_inches='tight')
+    plt.savefig('outputs/'+name+'_confusion.png', bbox_inches='tight')
         
+def plotDevice(data: pd.DataFrame, type:str):
+    """Plot all the data for a single device
 
+    Args:
+        data (pd.DataFrame): _description_
+        type (str): _description_
+    """
+    data = data[data['type']==type]
+        
+    fig3 = plt.figure()
+    # key gives the group name (i.e. category), data gives the actual 
+    cval = 1
+    cnt = 1
+    for key, grp in data.groupby(['model','mode']):
+        plt.rcParams.update({'font.size': 16})
+        plt.plot(grp['time'], grp['power'], label=cnt, color=plt.cm.PuBuGn(cval/cnt))
+        cnt+=1
+    plt.legend()
+    plt.xlabel('Time (minutes)')
+    plt.ylabel('Power (W)')
+    plt.savefig('outputs/'+type+'_profiles.svg', bbox_inches='tight')
+    plt.savefig('outputs/'+type+'_profiles.png', bbox_inches='tight')
+        
 if __name__ == '__main__':
+    raw = loadData('data/raw.csv')
+    plotDevice(raw, 'CD')
+    
     data = loadData('data/frr.csv')
     data = simulateVariance(data)
     runSVM(data, 'base')
